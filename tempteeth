@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>サンプル歯科医院</title>
+  <style>
+    /* 簡単なスタイル設定 */
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, nav, main, footer {
+      padding: 1rem;
+      margin: 0 auto;
+      max-width: 800px;
+    }
+    header {
+      background-color: #f0f0f0;
+      text-align: center;
+    }
+    nav {
+      background-color: #eee;
+      margin-top: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #333;
+    }
+    main {
+      margin-top: 1rem;
+    }
+    footer {
+      background-color: #f0f0f0;
+      margin-top: 1rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header>
+    <h1>サンプル歯科医院</h1>
+    <p>地域密着の歯科医院です。安心してご来院ください。</p>
+  </header>
+
+  <!-- ナビゲーション -->
+  <nav>
+    <a href="#about">医院案内</a>
+    <a href="#services">診療内容</a>
+    <a href="#access">アクセス</a>
+    <a href="#contact">お問い合わせ</a>
+  </nav>
+
+  <!-- メインコンテンツ -->
+  <main>
+    <!-- 医院案内 -->
+    <section id="about">
+      <h2>医院案内</h2>
+      <p>
+        サンプル歯科医院は、地域の皆さまのお口の健康を守るために、
+        最新の治療技術と丁寧なカウンセリングを提供しています。
+      </p>
+      <ul>
+        <li>院長：山田 太郎</li>
+        <li>所在地：東京都サンプル区1-2-3</li>
+        <li>電話番号：03-1234-5678</li>
+      </ul>
+    </section>
+
+    <!-- 診療内容 -->
+    <section id="services">
+      <h2>診療内容</h2>
+      <p>以下の診療を行っています。</p>
+      <ul>
+        <li>一般歯科</li>
+        <li>小児歯科</li>
+        <li>矯正歯科</li>
+        <li>口腔外科</li>
+        <li>ホワイトニング</li>
+      </ul>
+    </section>
+
+    <!-- アクセス -->
+    <section id="access">
+      <h2>アクセス</h2>
+      <p>
+        〇〇駅から徒歩5分、サンプルバス停から徒歩2分です。
+        専用駐車場もございますので、お車でもご来院いただけます。
+      </p>
+      <!-- 地図等を表示したい場合はGoogleマップ埋め込みなどを利用します。-->
+    </section>
+
+    <!-- お問い合わせ -->
+    <section id="contact">
+      <h2>お問い合わせ</h2>
+      <p>ご不明点やご予約に関するお問い合わせは、以下のフォームからお願いします。</p>
+      <form action="#" method="post">
+        <label for="name">お名前:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">メールアドレス:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">お問い合わせ内容:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <input type="submit" value="送信">
+      </form>
+    </section>
+  </main>
+
+  <!-- フッター -->
+  <footer>
+    <p>&copy; 2025 サンプル歯科医院</p>
+  </footer>
+
+</body>
+</html>
